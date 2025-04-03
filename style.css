@@ -1,0 +1,54 @@
+body{
+    font-family: sans-serif;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 540px;
+    width: 1280px;
+    margin: 0;
+}
+.calc{
+    height: 350px;
+    width: 300px;
+    border: 2px solid black;
+}
+#input{
+    width: 290px;
+    height: 35px;
+    
+}
+.numbers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+    
+}
+.numbers button{
+    height: 80px;
+}
+.buttons{
+    display: flex;
+    padding: 5px;
+   
+}
+button{
+    height: 55px;
+    width: 55px;
+    border: none;
+    background: lightgrey;
+    margin: 1px;
+    cursor: pointer;
+    font-size: 20px;
+   
+}
+.opertators{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
